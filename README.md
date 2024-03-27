@@ -40,7 +40,7 @@ Now go inside `notebooks\swat_dset\swat_csv` folder and unzip the `swat_dset.zip
 
 # RAI implementation on SWAT dataset
 
-In this section, we will demonstrate the implementation of the Recursive Autonomy Identification (RAI) algorithm on the SWAT dataset. The SWAT dataset is a real-world dataset that contains data from a water treatment plant. The dataset contains 14 variables, and the goal is to learn the causal relationships between these variables. The dataset is available in the `notebooks\swat_dset\swat_csv` folder.
+In this section, we will demonstrate the implementation of the Recursive Autonomy Identification (RAI) algorithm on the SWAT dataset. The SWAT dataset is a real-world dataset that contains data from a water treatment plant. The goal is to learn the causal relationships between the variables. The dataset is available in the `notebooks\swat_dset\swat_csv` folder.
 
 In [This notebook](notebooks/rai_pcmci_with_swat.ipynb) we implement the RAI algorithm. We first preprocess the data from normal dataset and normalize it from 0 to 3 beacuse the RAI algorithm works with integer values then  we search for threshold bdeu values that give the best results at the end we run the RAI algorithm on the SWAT dataset and plot the results. 
 
