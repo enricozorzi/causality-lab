@@ -41,3 +41,4 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+notebooks/swat_dset
