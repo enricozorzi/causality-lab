@@ -1,3 +1,5 @@
+# XAI Project - RAI algorithm on SWAT dataset
+---
 # Causality Lab
 
 This repository contains research code of novel causal discovery algorithms developed at Intel Labs, as well as other common algorithms, 
